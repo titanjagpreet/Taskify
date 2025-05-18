@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Open+Sans&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/taskify-frontend/style/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+</head>
+<body>
+    <nav class="signin-nav">
+
+        <div class="signin-logo">
+            <img src="/taskify-frontend/assets/images/taskify_logo.png" alt="">
+        </div>
+
+
+        <div class="signin-navigate">
+
+            <button> <a href="/taskify-frontend/index.html"  >Back</a></button>
+            <button> <a href="/taskify-frontend/signup.html"  >Sign Up</a></button>
+
+        </div>
+
+    </nav>
+
+    <section class="signin-section">
+
+        <form class="signin-form">
+          <h2>Sign in to Your Account</h2>
+      
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Choose a username" required>
+      
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Create a password" required>
+      
+          <button type="submit" id="signin-btn" >Sign In</button>
+        </form>
+        
+      </section>
+
+      <footer class="taskify-footer">
+        
+        <div class="footer-container">
+          <div class="footer-left">
+            <img src="/taskify-frontend/assets/images/taskify_logo.png" alt="Taskify Logo" />
+            <p>Organize your work. Simplify your life with Taskify.</p>
+          </div>
+      
+          <div class="footer-links">
+            <div>
+              <h4>Product</h4>
+              <a href="#">Features</a>
+              <a href="#">Pricing</a>
+              <a href="#">Integrations</a>
+            </div>
+            <div>
+              <h4>Company</h4>
+              <a href="#">About Us</a>
+              <a href="#">Careers</a>
+              <a href="#">Blog</a>
+            </div>
+            <div>
+              <h4>Support</h4>
+              <a href="#">Help Center</a>
+              <a href="#">Contact Us</a>
+              <a href="#">Terms & Privacy</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p>&copy; 2025 Taskify. All rights reserved.</p>
+        </div>
+
+      </footer>
+  
+  <script src="/taskify-frontend/js/signin.js" defer></script>
+      
+</body>
+</html>
